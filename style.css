@@ -141,6 +141,8 @@
 
 
 
+
+
 .para1 {
     margin-left: 90px ;
     margin-top: 190px;
@@ -155,6 +157,25 @@
     border: 1px solid  rgb(8, 8, 66);
     padding: 15px;
 }
+
+.button2a{
+    background-color: rgb(8, 8, 66);
+    border-radius: 30px;
+    width: 17%;
+    position: relative;
+    left: 1180px;
+    top: 208px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+.button2a .fa-solid{
+background-color: rgb(8, 8, 66);
+font-size: 20px;
+}
+
 .background1{
     color: black;
     font-size: 20px;
@@ -210,12 +231,12 @@
 
 
 .quali2{
-    font-size: 10px;
+    font-size: 12px;
     font-family: sans-serif;
      color: rgb(3, 3, 66);
 }
 .satis2{
-    font-size: 10px;
+    font-size: 12px;
      font-family: sans-serif;
      color: rgb(3, 3, 66);
 }
@@ -239,7 +260,7 @@
 
 }
 .comp2{
-    font-size: 10px;
+    font-size: 12px;
      font-family: sans-serif;
       color: rgb(3, 3, 66);
 }
@@ -280,4 +301,27 @@ width: 60%;
 
 .about1{
     color: rgb(243, 38, 38);
+}
+
+.since{
+    font-size: 20px;
+    color: rgb(8, 8, 66);
+}
+.provide{
+     font-size: 20px; 
+     color: rgb(8, 8, 66);
+}
+.electro{
+  color: rgb(26, 25, 25);
+}
+
+.popular{
+    font-size: 15px;
+}
+
+.button2{
+    background-color: rgb(8, 8, 66);
+    color: white;
+    padding: 10px;
+
 }
