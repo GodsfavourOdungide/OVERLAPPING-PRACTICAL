@@ -101,7 +101,7 @@
     height: 190px;
     padding: 30px;
   
-    background-color: aqua;
+   
 
 }
 
@@ -155,14 +155,15 @@
     padding: 20px;
     margin: 0;
    background-color: white;
-   width: 100%;
+   width: 97%;
+   background-color: red;
 
 }
 
 
 
 .imagetext{
-      /* background-color: rgb(236, 53, 7); */
+    /* background-color: rgb(236, 53, 7); */
       width: 70%;
 }
 .imagepart{
@@ -172,8 +173,8 @@
 }
 
 .image2{
-width: 100%;
-   margin-left: 50px;
+width: 70%;
+   margin-left: 220px;
     height: 290px;
      background-color: rgb(236, 53, 7); 
     
