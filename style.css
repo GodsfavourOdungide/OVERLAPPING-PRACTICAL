@@ -57,39 +57,112 @@
    
 }
 
-.background { background: url(Images/A\ business\ meeting\ _\ Premium\ AI-generated\ image2.jpg);
+.background { background: url(Images/pexels-rebrand-cities-581004-1367271.jpg);
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-size: cover;
     background-position: center;
     display: flex;
-    /* justify-content: left; */
-    /* align-items: center; */
     
-
+ 
+   animation-name: favor;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-direction: normal;
+   animation-delay: 3s;
+   animation-iteration-count: infinite;
 }
+
+@keyframes favor {
+    0%{
+        background: url(Images/pexels-rebrand-cities-581004-1367271\ \(1\).jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   animation-name: favor;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-direction: normal;
+   animation-delay: 3s;
+   animation-iteration-count: infinite;
+        
+    }
+
+10%{
+    background: url(Images/pexels-kindelmedia-7688168.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   animation-name: favor;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-direction: normal;
+   animation-delay: 3s;
+   animation-iteration-count: infinite;
+}
+
+20%{
+    background: url(Images/pexels-pavel-danilyuk-7658280.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   animation-name: favor;
+   animation-duration: 15s;
+   animation-timing-function: ease-in;
+   animation-direction: normal;
+   animation-delay: 6s;
+   animation-iteration-count: infinite;
+   
+}
+
+30%{
+    background: url(Images/pexels-ron-lach-10341121.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   animation-name: favor;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-direction: normal;
+   animation-delay: 3s;
+   animation-iteration-count: infinite;
+}
+ 
+ 
+}
+
+
 
 .para1 {
     margin-left: 90px ;
     margin-top: 190px;
     width: 50%;
-    font-size: 5px;
+   
 
 }
 
 .button1{
-    background-color: rgb(14, 14, 124);
+    background-color: rgb(8, 8, 66);
     color: white;
-    border: 1px solid  rgb(14, 14, 124);
-    padding: 5px;
+    border: 1px solid  rgb(8, 8, 66);
+    padding: 15px;
 }
 .background1{
     color: black;
-    font-size: 17px;
+    font-size: 20px;
 }
 .background2{
-    color: rgb(14, 14, 124); 
-    font-size: 20px;
+    color: rgb(8, 8, 66); 
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
 .grid1{
@@ -112,7 +185,7 @@
     
     background-color: white;
     height: 150px;
-    color: rgb(14, 14, 124);
+   color: rgb(51, 51, 150);
     
 }
 .satisfaction{
@@ -120,7 +193,7 @@
     padding: 20px;
     height: 150px;
     background-color: white;
-    color: rgb(14, 14, 124);
+    color: rgb(51, 51, 150);
     border-radius: 2px;
     box-shadow: 2px 2px 12px grey;
     /* box-shadow: box-side box-bottom faint-action color; */
@@ -131,19 +204,44 @@
     padding: 20px;
     height: 150px;
     background-color: white;
-    color: rgb(14, 14, 124);
+    color: rgb(51, 51, 150);
 
 }
 
 
 .quali2{
     font-size: 10px;
+    font-family: sans-serif;
+     color: rgb(3, 3, 66);
 }
 .satis2{
     font-size: 10px;
+     font-family: sans-serif;
+     color: rgb(3, 3, 66);
+}
+.icon2{
+   margin-bottom: 5px;
+}
+
+.fa-regular {
+    background-color: white;
+    font-size: 25px;
+
+}
+
+.icon3{
+   margin-bottom: 5px;
+}
+
+.fa-solid{
+     background-color: white;
+    font-size: 25px;
+
 }
 .comp2{
     font-size: 10px;
+     font-family: sans-serif;
+      color: rgb(3, 3, 66);
 }
 
 .grid2{
@@ -156,7 +254,7 @@
     margin: 0;
    background-color: white;
    width: 97%;
-   background-color: red;
+   /* background-color: red; */
 
 }
 
@@ -173,9 +271,13 @@
 }
 
 .image2{
-width: 70%;
+width: 60%;
    margin-left: 220px;
-    height: 290px;
+    height: 48vh;
      background-color: rgb(236, 53, 7); 
     
+}
+
+.about1{
+    color: rgb(243, 38, 38);
 }
